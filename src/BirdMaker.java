@@ -12,6 +12,7 @@ class BirdMaker {
 
     public static void main(String[] args) {
         /** Implementation 1: Using arrays for the Bird instances */
+        System.out.println("Implementation 1: Using arrays");
         Bird[] birds = new Bird[6]; // new empty Bird[]
 
         for(int i = 0; i < birds.length; i++) {
@@ -39,6 +40,7 @@ class BirdMaker {
          * Note: Only code repeated here for simplicity of the implementation
          * (don't need to create additional methods for the main class) */
         System.out.println("--------------------------------------");
+        System.out.println("Implementation 2: Using List implementation");
 
         List<Bird> birdsList = new ArrayList<Bird>();
         // Code to randomly fill birdsList with either a BlackBird or an Emu
